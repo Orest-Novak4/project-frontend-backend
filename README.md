@@ -10,12 +10,17 @@ https://orest-novak4.github.io/project-frontend-backend/
 Roles:
 
 Nazar Makara 
+
   Team lead
+  
   Frontend-Backend developer
 
 Orest Novak
+
   Frontend developer
+  
   Team leader assistant 
 
 Horpynenko Denys
+
   Designer
