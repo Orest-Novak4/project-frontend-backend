@@ -142,3 +142,54 @@ nav button:hover {
     background-color: black;
     color: #333;
 }
+footer {
+    background-color: #191919;
+    color: #fff;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.footer-logo {
+    max-width: 250px;
+}
+
+.logo-icon {
+    font-size: 2rem;
+}
+
+.footer-links {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}

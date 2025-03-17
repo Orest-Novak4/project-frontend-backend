@@ -10,11 +10,16 @@
 <body>
     <header>
         <nav>
-            <button onclick="navigateTo('home.html')">Home</button>
-            <button onclick="navigateTo('about.html')">About</button>
-            <button onclick="navigateTo('services.html')">Services</button>
-            <button onclick="navigateTo('contact.html')">Contact</button>
+            <div class="nav-buttons">
+                <button onclick="navigateTo('index_3.html')">Home</button>
+                <button onclick="navigateTo('about.html')">About</button>
+                <button onclick="navigateTo('services.html')">Services</button>
+                <button onclick="navigateTo('contact.html')">Contact</button>
+            </div>
+            <button class="my-profile" onclick="navigateTo('profile.html')">My Profile</button>
         </nav>
+    </header>
+
     <section class="section">
         <div class="container">
             <div class="images">
@@ -30,5 +35,42 @@
         </div>
     </section>
 
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <span class="logo-icon">☁</span>
+                <p>© 2025 FitChallenge, Inc.<br>All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-section">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Leaderboard</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Fitness Guides</a></li>
+                        <li><a href="#">Nutrition Plans</a></li>
+                        <li><a href="#">Recovery Tips</a></li>
+                        <li><a href="#">Motivation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
